@@ -1,0 +1,23 @@
+
+<suite name="Grid2" parallel="none">
+  <test name="on firefox">
+  <parameter name="browser"  value="firefox"/>
+  <classes>
+  <class name="grid2.Grid_multipleBR"/>
+  </classes>
+  </test>
+   <test name="on chrome">
+  <parameter name="browser"  value="chrome"/>
+  <classes>
+  <class name="grid2.Grid_multipleBR"/>
+  </classes>
+  </test>
+   <test name="on iexplore">
+  <parameter name="browser"  value="iexplore"/>
+  <classes>
+  <class name="grid2.Grid_multipleBR"/>
+  </classes>
+  </test>
+  
+  
+</suite> <!-- Grid2 -->

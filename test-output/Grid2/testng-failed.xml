@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Grid2]" parallel="methods">
+  <test name="on iexplore(failed)" parallel="methods">
+    <parameter name="browser" value="iexplore"/>
+    <classes>
+      <class name="grid2.Grid_multipleBR">
+        <methods>
+          <include name="multiple_br" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- grid2.Grid_multipleBR -->
+    </classes>
+  </test> <!-- on iexplore(failed) -->
+</suite> <!-- Failed suite [Grid2] -->
