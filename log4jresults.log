@@ -1,0 +1,5 @@
+2017-01-02 13:40:27,832 INFO  [Log4j] browser launched 
+2017-01-02 13:40:29,009 INFO  [Log4j] navigated to url 
+2017-01-02 13:40:33,103 INFO  [Log4j]  enter username 
+2017-01-02 13:40:34,369 INFO  [Log4j] enter password 
+2017-01-02 13:40:37,462 INFO  [Log4j] click on signin 
